@@ -1,0 +1,133 @@
+
+.navbar-light {
+  color: azure;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.navbar-light > .container{
+
+  text-align: center;
+  
+}
+.navbar-light > .container > h4{
+    background-color: black;
+    font-weight: bold;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+p{
+  font-size: large;
+}
+
+a,a:hover{color:#5fabb2;}
+/* ==================================== */
+  .flex-grid {
+    display: flex;
+    background-color: #fff;
+    
+  }
+  .left-side{padding: 0; flex-basis: 60%; width: 60%; position: relative;}
+  
+  .right-side{padding:90px; flex-basis: 40%; width: 40%;}
+
+ 
+  .left-img{width: 100%; position: absolute; top: 0; bottom: 0;}
+  .outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+  }
+  .head-bar {    margin-bottom: 40px;
+  }
+.head-bar p {margin: 0; font-size: 16px; color: #9f9999;}
+.head-bar h3{
+  font-size: 32px;
+    margin-bottom: 10px;
+}
+.form-group{position: relative; }
+.form-label{
+  position: absolute;
+    left: 2%;
+    top: 11px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #a39f9f;
+    transition: all 0.5s ease;
+    pointer-events: none;
+
+}
+.user-control:focus~.form-label {
+  display:block;
+  color: #5fabb2;
+  top: -6px;
+  font-size: 14px;
+}
+
+.user-control:focus~.enter {
+  background-color: #5fabb2;
+  position: absolute;
+  content: ' ';
+  height: 1.2px;
+  right: 40%;
+  top: 39px;
+  transform: scaleX(5);
+
+}
+.enter{
+  transition: all ease 0.5s;
+  width: 20.1%;
+  transform: scaleX(1)
+
+}
+.user-control { 
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cecece;
+  height: 40px;
+  width: 100%;
+  background-color: unset;
+}
+.user-control:active,.user-control:active>focus{background-color: unset;}
+.user-control:-internal-autofill-selected {
+  background-color: unset !important;
+}
+
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #5fabb2;
+  }
+
+.btn-cyan, .btn-cyan:focus,.btn-cyan:hover{
+  background-color: #5fabb2;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: unset;
+  border-radius: 25px;
+  margin-top:60px;
+
+}
+.flex-grid-login{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.flex-grid-login .forgot a{font-weight: 600;}
+.title-user-list{margin-bottom: 20px;}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hidden-xs{display: none;}
+  .right-side{flex-basis: 90%;}
+}
+
+
