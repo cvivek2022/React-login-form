@@ -12,6 +12,8 @@ function Home() {
            <div className="users">
            <div className="title-user-list">
                <h3>User Details</h3>
+
+               
                <h3>User Details</h3>
 
              </div>    
