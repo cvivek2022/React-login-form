@@ -12,6 +12,8 @@ function App() {
               <img src="/images/slide-left.png" alt="slide" className="left-img" />;
             </div>
             <div className="right-side outer">
+
+              
              <Registration />
               
             </div>
